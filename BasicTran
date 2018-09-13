@@ -1,0 +1,9 @@
+
+    #!/bin/bash
+
+    if [ -z "$1" ]
+    	then
+    		echo Debe introducir un archivo como argumento
+    		exit
+    fi
+    python3 BasicTran.py $1
